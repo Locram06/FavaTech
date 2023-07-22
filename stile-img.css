@@ -1,7 +1,9 @@
 .logo
 {
-    height: 100%;
-    aspect-ratio: 1/1;
+    position: inherit;
+    margin-top: -20px;
+    margin-left: -15px;
+    height: 100px;
     mix-blend-mode: color-burn; 
 }
 
@@ -15,10 +17,9 @@
 }
 .utente
 {
-    position: absolute;
-    top: 0;
-    right: 5%;
-    margin-top: -2px;
+    position: inherit;
+    margin-top: 10px;
+    margin-left: 65%;
     width: 47px; 
     aspect-ratio: 1/1;
     border-radius: 100%;
