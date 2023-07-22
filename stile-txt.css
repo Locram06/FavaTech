@@ -1,10 +1,10 @@
 .barra-up
 {
-    position: absolute;
-    top: 0;
-    right: 0; 
-    width: 100%;
-    height: 7.5%;
+    position: relative;
+    margin-top: -7px;
+    margin-left: -25%; 
+    width: 166.7%;
+    height: 7%;
     background: #C9CCD3;
     background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
     background-blend-mode: lighten;
@@ -72,19 +72,19 @@
 
 .user-section
 {
-    position: absolute;
-    top: 15%;
-    right: 10%;
-    width: 10%;
-    aspect-ratio: 2/1;
+    position: relative;
+    margin-top: -80px;
+    left: 90%;
+    width: 0%;
+    aspect-ratio: 1/2;
 }
 
 .nacc
 {
-    position: absolute;
-    top: 25%;
-    right: -27%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: inherit;
+    margin-top: -25px;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: large;
 }
 
