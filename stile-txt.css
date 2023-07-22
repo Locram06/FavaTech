@@ -12,10 +12,11 @@
 
 .nome
 {
+    position: inherit;
     font-size: xx-large;
+    margin-top: -70px;
+    margin-left: 65px;
     font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: -53px;
-    margin-left: 4%;
 }
 
 .txt1
