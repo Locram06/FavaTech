@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="C:\Users\lenovo\Documents\sito\CSS\stile-txt.css">
+        <link rel="stylesheet" href="C:\Users\lenovo\Documents\sito\CSS\stile-img.css">
+        <link rel="stylesheet" href="C:\Users\lenovo\Documents\sito\CSS\stile-int.css">
+
+        <link rel="website icon" type="png" href="C:\Users\lenovo\Documents\sito\immagini\logo.png">
+        <title>
+            Favatech-Informazioni account
+        </title>
+   </head>
+
+   <body>    
+        <div class="barra-up"> 
+        <a href="C:\Users\lenovo\Documents\sito\HTML\index.html" title="Torna alla home" >
+            <img src="C:\Users\lenovo\Documents\sito\immagini\logo.png" alt= "sorry!" class="logo">
+        </a>
+
+        <h1 class="nome"> 
+            Favatech 
+        </h1> 
+
+        </div>
+    
+        <main class="txt1">
+
+           <div>
+                <img alt="sorry!"
+                id="img-user"
+                class="img-user-info"
+                >
+                <div id="saluti" class="saluti"></div>
+                
+            </div>
+
+            <hr class="separatore">
+
+            <div id="info">
+                <p class="scritte" style="margin-left: 2%;">Informazioni personali</p>
+
+                <p class="scritte"> Nome: </p> <label id="nome" class="caselle" style="margin-left: 4.5%;"></label> 
+
+                <p class="scritte"> Cognome: </p><label id="cognome" class="caselle" style="margin-left: 6.2%;"></label>
+
+                <p class="scritte"> Data di nascita:</p><label id="date" class="caselle" style="margin-left: 8.9%;"></label>
+
+                <p class="scritte"> E-mail:</p>
+                <label id="mail" class="caselle" style="margin-left: 4.4%;"></label> 
+
+                <p class="scritte">Cellulare:</p>
+                <label id="cell" class="caselle" style="margin-left: 6%;"></label>
+           </div>
+        </main>
+
+        <label class="cambio-img-bt">
+            <button class="button" onclick="getuserimg()"> Modifica </button>
+        </label>
+
+
+        <label class="cambio-var-bt">
+            <button class="button" onclick="mostraPrompt()"> Modifica </button>
+        </label>
+       
+        <div class="cambio-tema-div">
+
+            <div class="cambio-tema-tx">
+                Cambia tema:
+            </div>
+    
+            <label class="cambio-tema-sw">
+                    <label class="switch">
+                    <input id="backgroundSwitch" class="toggle" type="checkbox" onchange="cambiaSfondo()">
+                    <span class="slider"></span>
+            </label>
+        </div>
+        
+       
+        <script src="C:\Users\lenovo\Documents\sito\JS\Input.js"></script>
+        <script src="C:\Users\lenovo\Documents\sito\JS\Output.js"></script>
+   </body>
+</html>

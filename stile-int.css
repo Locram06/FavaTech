@@ -1,0 +1,117 @@
+.cambio-tema-div
+{
+  background-image: inherit;
+}
+.cambio-tema-sw
+{
+  position: absolute;
+  top: 15%;
+  right: 10%;
+  background-image: inherit;
+  border-radius: 8px;
+}
+.cambio-tema-bt
+{
+  position: absolute;
+  top: 32%;
+  right: 10%;
+  background-image: inherit;
+  border-radius: 8px;
+}
+
+.cambio-var-bt
+{
+  position: absolute;
+  top: 33.5%;
+  right: 10%;
+  background-image: inherit;
+  border-radius: 8px;
+}
+
+.cambio-img-bt
+{
+  position: absolute;
+  top: 25.5%;
+  right: 10%;
+  background-image: inherit;
+  border-radius: 8px;
+}
+
+.switch 
+{
+  --input-focus: #2d8cf0;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --bg-color-alt: #666;
+  --main-color: #323232;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 50px;
+  height: 20px;
+}
+.toggle 
+{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.slider 
+{
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  transition: 0.3s;
+}
+.slider:before 
+{
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  left: -2px;
+  bottom: 2px;
+  background-color: var(--bg-color);
+  box-shadow: 0 3px 0 var(--main-color);
+  transition: 0.3s;
+}  
+.toggle:checked + .slider 
+{
+  background-image: inherit;
+}
+.toggle:checked + .slider:before 
+{
+ transform: translateX(30px);
+}
+
+.button {
+  color:black;
+  font-size: 17px;
+  background-color:inherit;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0px 6px 0px black;
+  transition: all 50ms;
+  width: 120px;
+ }
+ 
+ .button:active {
+  box-shadow: 0px 2px 0px #787878;
+  position: relative;
+  top: 2px;
+ }

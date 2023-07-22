@@ -1,0 +1,48 @@
+.logo
+{
+    height: 100%;
+    aspect-ratio: 1/1;
+    mix-blend-mode: color-burn; 
+}
+
+.img-user-info
+{
+    margin-left: 1%;
+    margin-top: 1%;
+    width: 10%;
+    height: auto; 
+    border-radius: 100%;
+}
+.utente
+{
+    position: absolute;
+    top: 0;
+    right: 5%;
+    margin-top: -2px;
+    width: 47px; 
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.img-sx
+{
+    position: absolute;
+    left: 5%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.img-dx
+{
+    position: absolute;
+    right: 5%;
+    top: 13%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.separatore
+{
+    height: 2px;
+    background-color: gray;
+}

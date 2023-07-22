@@ -1,0 +1,109 @@
+.barra-up
+{
+    position: absolute;
+    top: 0;
+    right: 0; 
+    width: 100%;
+    height: 7.5%;
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+}
+
+.nome
+{
+    font-size: xx-large;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -53px;
+    margin-left: 4%;
+}
+
+.txt1
+{
+    margin-top: 10%;
+    border-radius: 10px;
+    width: 100%;
+    height: 75.6%;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 200%);
+    width: 150%; 
+    margin-left: -20%;
+}
+
+.art-sx
+{
+    margin-top: 10%;
+    margin-left: -19%;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+   
+}
+
+.art-dx
+{
+    position: absolute;
+    right: 2%;
+    margin-top: 12%;  
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); border-radius: 20px;
+}
+
+.saluti
+{
+    position: absolute; 
+    top: 25%; 
+    left: 13%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.scritte
+{
+    margin-left: 0.5%;
+    margin-top: -8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.caselle
+{
+    position: absolute;
+    margin-top: -2.7%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.user-section
+{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    width: 10%;
+    aspect-ratio: 2/1;
+}
+
+.nacc
+{
+    position: absolute;
+    top: 25%;
+    right: -27%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.cambio-tema-tx
+{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 14.6%;
+    right: 13.5%;
+    border-radius: 8px;
+}
+
+.cambio-tema
+{
+    background-image: inherit;
+}
+
+a
+{
+    text-decoration: none; 
+    color: black;
+}
